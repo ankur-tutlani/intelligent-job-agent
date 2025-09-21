@@ -27,9 +27,9 @@ This repository provides a suite of Python modules for automating and enhancing 
 
 1. **Install Dependencies**
     - Ensure Python 3.8+ is installed.
-    - Create and activate the environment using the provided `environment.yaml` file:
+    - Create and activate the environment using the provided `environment.yml` file:
        ```powershell
-       conda env create -f environment.yaml
+       conda env create -f environment.yml
        conda activate <env_name>
        ```
 
@@ -40,21 +40,21 @@ This repository provides a suite of Python modules for automating and enhancing 
      ```
 
 3. **Resume Parsing**
-   - Place your resume PDF in the project folder and update the filename in `main.py` or `resume_parser.py` as needed.
+   - Place your resume PDF in the project folder and update the filename if needed.
 
 4. **Knowledge Extraction & YAML Generation**
    - Use the provided modules to extract information and generate YAML files for further processing.
 
 ## Outputs
 - Extracted data and agent results are saved as pickle files (`*.pkl`) and YAML files.
-- Screenshots and visual outputs should be saved in a dedicated `screenshots/` directory (create if needed).
+- Screenshots and visual outputs will be saved in a dedicated `screenshots/` directory (auto-created).
 
 ## Contributing
 - Fork the repository and submit pull requests for improvements.
 - Document any new modules or workflows in this README.
 
 ## License
-Specify your license here (e.g., MIT, Apache 2.0).
+This project is licensed under the MIT license.
 
 ## Contact
 For questions or support, open an issue or contact the repository maintainer.
