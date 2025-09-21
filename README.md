@@ -1,6 +1,6 @@
 # AI-Powered Job Application
 
-This repository provides a suite of Python modules for automating and enhancing the job application process using AI-driven agents, resume parsing, and knowledge extraction. It is designed for experimentation and development of intelligent workflows for job seekers and HR automation.
+AI and web‑agent powered Python tools for automating job applications, parsing resumes, and accelerating your job search.
 
 ## Technology & Models Used
 
